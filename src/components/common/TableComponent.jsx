@@ -6,7 +6,7 @@ import * as XLSX from 'xlsx';
 
 // Define a default UI for filtering
 function DefaultColumnFilter({
-  column: { filterValue, preFilteredRows, setFilter },
+  column: {  preFilteredRows },
 }) {
   const count = preFilteredRows.length;
   // return (
